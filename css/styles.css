@@ -179,6 +179,25 @@ hr.short{
 	box-shadow: 2px 2px #A8B7C6;
 }
 
+#mainFooter{
+	background-color: #0E284D;
+	color: #BAD5FC;
+	text-align: center;	
+	margin-top: 30px;
+	padding: 20px;
+}
+
+a.tel {
+	color: #BAD5FC;
+}
+
+#copyright{
+	text-align: center;
+	color: #8B9DB5;
+	font-size:0.8em;
+}
+
+
 /*******extra extra small**********/
 @media (max-width: 450px) {
 

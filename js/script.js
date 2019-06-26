@@ -1,6 +1,7 @@
 
 // jQuerry to hide collapsible menu on xs when onblur 
 // (Boostrap construction of collapsible menu requires jQuerry)
+// nie chce działac z dropdown w navbarze i szukaniem
 
 $(function (){ //czeka na załadowanie DOM bez obrazków itd.
 	$("#navbarToggle").blur(function (event) {
@@ -28,4 +29,7 @@ var showLoading = function (selector){
 };
 //potem oczywiście trzeba wywołać showLoading gdy potrzeba
 
+insertHtlm("#insertFooter", "footer.html");
+
+document.querrySelector("#insertFooter").innerHTML='inny tyt';
 
