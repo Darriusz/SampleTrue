@@ -32,7 +32,7 @@ var showLoading = function (selector){
 //to działa:
 //insertHtml("#insertFooter", '<footer id="insertFooter">blablablaScript</footer>');
 
-$ajaxUtils.sendGetRequest ("./snippets/footer.html",
+$ajaxUtils.sendGetRequest ("../snippets/footer.html",
 			function (responseText) {
 				document.querySelector("#insertFooterPage2").innerHTML = responseText;
 			},
