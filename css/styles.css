@@ -86,7 +86,7 @@ small{
 */
 	background-image: url("https://www.referenceforbusiness.com/photos/corporate-image-630.jpg");
 	color: white;
-	margin-top: 60px; /*for fixed navbar */
+	margin-top: 60px; /*for fixed navbar BUT doesn't move down with coll navbar. Moves down when no margin top and no fixed navbar */
 	max-height: 280px;
 
 }
